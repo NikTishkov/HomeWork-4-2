@@ -71,7 +71,7 @@ public class Main {
         int pastYears = 2025 - 200;
         int futureYears = 2025 + 100;
         for (int yearOfTheCometIsFlight = 0;yearOfTheCometIsFlight < futureYears; yearOfTheCometIsFlight += 79) {
-            if (yearOfTheCometIsFlight >= pastYears && yearOfTheCometIsFlight < futureYears) {
+            if (yearOfTheCometIsFlight >= pastYears && yearOfTheCometIsFlight <= futureYears) {
                 System.out.println(yearOfTheCometIsFlight);
             }
         }
