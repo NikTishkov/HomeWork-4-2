@@ -73,9 +73,7 @@ public class Main {
         for (int yearOfTheCometIsFlight = 0;yearOfTheCometIsFlight < futureYears; yearOfTheCometIsFlight += 79) {
             if (yearOfTheCometIsFlight >= pastYears && yearOfTheCometIsFlight < futureYears) {
                 System.out.println(yearOfTheCometIsFlight);
-                continue;
             }
-            System.out.print("");
         }
     }
 }
